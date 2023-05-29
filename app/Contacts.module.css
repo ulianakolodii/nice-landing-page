@@ -126,5 +126,18 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        margin: 30px 100px;
+    }
+
+    .contacts_inputs_container {
+        width: 50%;
+    }
+
+    .input_field {
+        width: 70%;
+    }
+
+    .contacts_button {
+        margin-right: auto;
     }
 }
