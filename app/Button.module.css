@@ -1,3 +1,9 @@
+.button_container {
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+}
+
 .colored,
 .outlined {
     height: 46px;
@@ -8,6 +14,9 @@
     font-family: var(--main-font);
     font-weight: 600;
     font-size: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 
@@ -15,11 +24,12 @@
     width: 186px;
     background-color: var(--light-details-color);
     color: var(--bg-accent-color);
+    cursor: pointer;
 }
 
 .outlined {
     width: 202px;
     border: 1px solid var(--light-text-color);
     color: var(--light-text-color);
-
+    cursor: pointer;
 }

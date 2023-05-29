@@ -1,0 +1,61 @@
+.banner_container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-accent-color);
+    padding: 0 16px 0 34px;
+}
+
+.main_title {
+    color: var(--light-text-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 60px 16px 16px 0;
+}
+
+.main_description {
+    color: var(--light-text-color);
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 32px;
+    line-height: 27px;
+}
+
+.accent_description {
+    color: var(--light-details-color);
+    font-weight: 700;
+}
+
+.banner_buttons_container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.businessman_container {
+    margin-left: -30px;
+    margin-top: -76px;
+    position: relative;
+    height: 400px;
+}
+
+.businessman_img {
+    position: relative;
+    z-index: 1;
+}
+
+.blur_img {
+    position: absolute;
+    left: -90px;
+    top: -90px;
+    width: 600px;
+}
+
+.earth_img {
+    position: absolute;
+    top: 62px;
+    left: 20px;
+    z-index: 2;
+}

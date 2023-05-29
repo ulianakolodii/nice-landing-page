@@ -13,7 +13,7 @@ const Button: FC<PropsWithChildren<{ variant?: "colored" | "outlined" }>> = ({
     buttonClasses += ` ${classes.outlined}`;
   }
 
-  return <div className={buttonClasses}>{children}</div>;
+  return <div className={classes.button_container}><button className={buttonClasses}>{children}</button></div>;
 };
 
 export default Button;
