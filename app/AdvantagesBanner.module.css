@@ -87,9 +87,21 @@
     left: -30px;
 }
 
-/* .earth_img {
-    position: absolute;
-    top: 62px;
-    left: 20px;
-    z-index: 2;
-} */
+@media (min-width: 768px) {
+    .advantages_title {
+        max-width: 100%;
+        padding: 0 240px;
+    }
+
+    .advantages_desktop_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advantages_hashtag_container {
+        max-width: 30%;
+        margin-top: -100px;
+    }
+}

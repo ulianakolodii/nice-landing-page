@@ -117,3 +117,13 @@
 .contacts_button {
     margin-left: auto;
 }
+
+@media (min-width: 768px) {
+    .contacts_desktop_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

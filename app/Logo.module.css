@@ -3,6 +3,7 @@
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 40px;
+    width: 20%;
 }
 
 .dark {

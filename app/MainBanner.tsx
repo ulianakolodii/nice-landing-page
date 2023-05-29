@@ -7,15 +7,17 @@ import Image from "next/image";
 const MainBanner: FC = () => {
   return (
     <div className={classes.banner_container}>
-      <span className={classes.main_title}>Um slogan chamativo aqui.</span>
-      <span className={classes.main_description}>
-        Um texto sobre o seu produto ou serviço. Explique porque{" "}
-        <span className={classes.accent_description}>ele é valioso</span> e
-        direcione o usuário ao próximo objetivo.
-      </span>
-      <div className={classes.banner_buttons_container}>
-        <Button variant="colored">Eu quero!</Button>
-        <Button variant="outlined">Conhecer mais!</Button>
+      <div className={classes.main_title_container}>
+        <span className={classes.main_title}>Um slogan chamativo aqui.</span>
+        <span className={classes.main_description}>
+          Um texto sobre o seu produto ou serviço. Explique porque{" "}
+          <span className={classes.accent_description}>ele é valioso</span> e
+          direcione o usuário ao próximo objetivo.
+        </span>
+        <div className={classes.banner_buttons_container}>
+          <Button variant="colored">Eu quero!</Button>
+          <Button variant="outlined">Conhecer mais!</Button>
+        </div>
       </div>
       <div className={classes.businessman_container}>
         <img

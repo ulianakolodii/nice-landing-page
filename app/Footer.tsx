@@ -6,15 +6,17 @@ import LightMediaButtons from "./LightMediaButtons";
 const Footer: FC = () => {
   return (
     <div className={classes.footer_container}>
-      <Logo variant="light" />
-      <div className={classes.footer_menu_container}>
-        <div className={classes.footer_menu}>
-          <div>o que fazemos</div>
-          <div>como te ajudamos</div>
-          <div>fale conosco</div>
-        </div>
-        <div className={classes.footer_media_buttons}>
-          <LightMediaButtons variant="light" />
+      <div className={classes.footer_desktop_wrapper}>
+        <Logo variant="light" />
+        <div className={classes.footer_menu_container}>
+          <div className={classes.footer_menu}>
+            <div>o que fazemos</div>
+            <div>como te ajudamos</div>
+            <div>fale conosco</div>
+          </div>
+          <div className={classes.footer_media_buttons}>
+            <LightMediaButtons variant="light" />
+          </div>
         </div>
       </div>
       <div className={classes.footer_input_container}>
