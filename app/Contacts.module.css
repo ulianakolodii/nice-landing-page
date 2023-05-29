@@ -1,0 +1,119 @@
+.contacts_container {
+    background-color: var(--contacts-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 34px 76px 43px;
+}
+
+.contacts_title_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat_icon {
+    margin-top: 35px;
+    margin-bottom: 14px;
+    width: 154px
+}
+
+.contacts_title {
+    font-family: var(--main-font);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--bg-accent-color);
+    width: 280px;
+    margin-bottom: 14px;
+}
+
+.contacts_divider {
+    width: 97px;
+    height: 3px;
+    background-color: var(--light-details-color);
+}
+
+.contacts_decription_container {
+    margin-top: 22px;
+}
+
+.contacts_decription {
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--descriptions-color);
+}
+
+.contacts_description_email {
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--descriptions-color);
+}
+
+.contacts_description_accent {
+    font-weight: 700;
+    color: var(--dark-details-color);
+}
+
+.contacts_watsapp_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 16px;
+    gap: 14px
+}
+
+.contacts_whatsapp_text {
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--bg-accent-color);
+    text-decoration: underline;
+}
+
+.contacts_inputs_container {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+    width: 100%;
+}
+
+.contacts_input {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.input_title {
+    color: var(--dark-details-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.input_field {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    background: var(---bg-color);
+    border: 1px solid var(--contact-input-border);
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.contacts_button {
+    margin-left: auto;
+}
