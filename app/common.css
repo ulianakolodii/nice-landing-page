@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
     ---bg-color: #FFFFFF;
     --bg-accent-color: #2B0955;
+    --contacts-bg-color: #F8F6FA;
     --dark-text-color: #000000;
     --light-text-color: #FFFFFF;
     --light-details-color: #FBC508;
     --dark-details-color: #7000FF;
+    --descriptions-color: #363636;
     --main-font: 'Poppins', sans-serif;
+    --contact-input-border: #AE97CB
 
 }
