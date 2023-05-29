@@ -1,0 +1,25 @@
+.colored,
+.outlined {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.colored {
+    width: 186px;
+    background-color: var(--light-details-color);
+    color: var(--bg-accent-color);
+}
+
+.outlined {
+    width: 202px;
+    border: 1px solid var(--light-text-color);
+    color: var(--light-text-color);
+
+}

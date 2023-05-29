@@ -9,19 +9,19 @@ const MediaButtons: FC = () => {
         <Image
           src="/InstagramIcon.svg"
           alt="Instagram icon"
-          width="18"
-          height="18"
+          width={18}
+          height={18}
         />
       </div>
       <div className={classes.media_icon}>
         <Image
           src="/FacebookIcon.svg"
           alt="Facebook icon"
-          width="10"
-          height="18"
+          width={10}
+          height={18}
         />
-            </div>
       </div>
+    </div>
   );
 };
 
