@@ -14,32 +14,34 @@ const Contacts: FC = () => {
           <span className={classes.contacts_divider}></span>
       </div>
       <div className={classes.contacts_desktop_wrapper}>
-        <div className={classes.contacts_decription_container}>
-          <span className={classes.contacts_decription}>
-            Ofereça um meio de comunicação direto. <br /> Pode ser um{" "}
-            <a
-              href="mailto:contato@email.com.br"
-              className={classes.contacts_description_email}
-            >
-              contato@email.com.br
-            </a>
-            <br />
-            <br />
-            Ou crie um formulário ao lado que entrem em contato{" "}
-            <span className={classes.contacts_description_accent}>
-              o mais rápido possível!
+        <div>
+          <div className={classes.contacts_decription_container}>
+            <span className={classes.contacts_decription}>
+              Ofereça um meio de comunicação direto. <br /> Pode ser um{" "}
+              <a
+                href="mailto:contato@email.com.br"
+                className={classes.contacts_description_email}
+              >
+                contato@email.com.br
+              </a>
+              <br />
+              <br />
+              Ou crie um formulário ao lado que entrem em contato{" "}
+              <span className={classes.contacts_description_accent}>
+                o mais rápido possível!
+              </span>
             </span>
-          </span>
-        </div>
-        <div className={classes.contacts_watsapp_container}>
-          <img
-            className={classes.whatsapp_icon}
-            src="/WhatsappIcon.svg"
-            alt="Whastapp icon"
-          />{" "}
-          <span className={classes.contacts_whatsapp_text}>
-            Hey! Estamos no whatsapp!
-          </span>
+          </div>
+          <div className={classes.contacts_watsapp_container}>
+            <img
+              className={classes.whatsapp_icon}
+              src="/WhatsappIcon.svg"
+              alt="Whastapp icon"
+            />{" "}
+            <span className={classes.contacts_whatsapp_text}>
+              Hey! Estamos no whatsapp!
+            </span>
+          </div>
         </div>
         <div className={classes.contacts_inputs_container}>
           <label className={classes.contacts_input}>
