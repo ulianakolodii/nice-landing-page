@@ -2,13 +2,14 @@ import { FC } from "react";
 import classes from "./Header.module.css";
 import BurgerMenu from "./BurgerMenu";
 import MediaButtons from "./MediaButtons";
+import Logo from "./Logo";
 
 const Header: FC = () => {
   return (
     <div className={classes.header_container}>
       <BurgerMenu />
-      <span className={classes.logo}>nice</span>
-      <MediaButtons />
+      <Logo variant="dark" />
+      <MediaButtons variant="dark" />
     </div>
   );
 };

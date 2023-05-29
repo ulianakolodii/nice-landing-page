@@ -1,0 +1,14 @@
+.dark,
+.light {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.dark {
+    color: var(--dark-text-color)
+}
+
+.light {
+    color: var(--light-text-color)
+}

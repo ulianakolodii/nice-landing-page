@@ -9,9 +9,3 @@
     padding-top: 10px;
     box-sizing: border-box;
 }
-
-.logo{
-    font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 40px;
-}

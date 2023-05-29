@@ -71,6 +71,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 98px;
 }
 
 .talking_man_img {
