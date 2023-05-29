@@ -4,6 +4,8 @@
     gap: 24px;
 }
 
-.media_icon{
+.media_icon {
     cursor: pointer;
+    height: 18px;
 }
+

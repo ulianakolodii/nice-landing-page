@@ -2,7 +2,7 @@
 import { FC } from "react";
 import classes from "./MediaButtons.module.css";
 
-const MediaButtons: FC<{ variant?: "light" | "dark" }> = ({ variant }) => {
+const LightMediaButtons: FC<{ variant?: "light" | "dark" }> = ({ variant }) => {
   let buttonClasses = classes.button;
 
   if (variant === "light") {
@@ -13,12 +13,12 @@ const MediaButtons: FC<{ variant?: "light" | "dark" }> = ({ variant }) => {
   return (
     <div className={classes.buttons_container}>
       <img
-        src="/InstagramIcon.svg"
+        src="/LightInstagramIcon.svg"
         alt="Instagram icon"
         className={buttonClasses}
       />
       <img
-        src="/FacebookIcon.svg"
+        src="/LightFacebookIcon.svg"
         alt="Facebook icon"
         className={buttonClasses}
       />
@@ -26,4 +26,4 @@ const MediaButtons: FC<{ variant?: "light" | "dark" }> = ({ variant }) => {
   );
 };
 
-export default MediaButtons;
+export default LightMediaButtons;
